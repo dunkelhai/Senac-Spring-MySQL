@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class IndexController {
 
-
     @GetMapping
     public String sayHello() {
         return "Crie novos requests de Notes usando um POST para o endpoint /api/notes .";
